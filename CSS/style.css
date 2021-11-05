@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  width: 640px;
+}
+main .our_community {
+  background-color: white;
+  color: hsl(218, 22%, 67%);
+  padding: 40px;
+  border-radius: 7px 7px 0 0;
+}
+main .our_community h2 {
+  color: hsl(179, 62%, 43%);
+  margin: 15px 0;
+}
+main .our_community h4 {
+  color: hsl(71, 73%, 54%);
+  margin: 10px 0;
+}
+main .our_community p {
+  line-height: 1.6;
+}
+main .bottom_secation {
+  display: flex;
+}
+main .bottom_secation .Subscrip {
+  width: 100%;
+  background-color: hsl(179, 62%, 43%);
+  height: 240px;
+  padding: 40px;
+  border-radius: 0 0 0 7px;
+}
+main .bottom_secation .Subscrip button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  height: 45px;
+  width: 220px;
+  border-radius: 5px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: "Karla", sans-serif;
+}
+main .bottom_secation .Subscrip button:hover {
+  cursor: pointer;
+}
+main .bottom_secation .Subscrip h3 {
+  color: white;
+  margin: 0 0 15px;
+  font-weight: normal;
+}
+main .bottom_secation .Subscrip .price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .bottom_secation .Subscrip span:first-child {
+  font-size: xx-large;
+  color: white;
+}
+main .bottom_secation .Subscrip span:last-child {
+  color: #a0dcd9;
+}
+main .bottom_secation .Subscrip p {
+  color: #ffffffb3;
+  margin-top: 5px;
+}
+main .bottom_secation .Why_Us {
+  width: 100%;
+  background-color: #4abebd;
+  height: 240px;
+  padding: 40px;
+  border-radius: 0 0 7px 0;
+}
+main .bottom_secation .Why_Us h3 {
+  color: white;
+  font-size: medium;
+  margin: 0 0 15px;
+  font-weight: normal;
+}
+main .bottom_secation .Why_Us p {
+  color: #ffffff8c;
+  line-height: 1.6;
+  width: 85%;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  main {
+    width: 330px;
+  }
+  main .our_community {
+    padding: 30px;
+  }
+  main .our_community h2 {
+    font-size: 18px;
+  }
+  main .our_community p {
+    width: 270px;
+    font-size: 14px;
+  }
+  main .bottom_secation {
+    flex-direction: column;
+  }
+  main .bottom_secation .Subscrip {
+    border-radius: 0;
+    padding: 30px;
+  }
+  main .bottom_secation .Subscrip button {
+    width: 245px;
+    margin-top: 40px;
+  }
+  main .bottom_secation .Why_Us {
+    border-radius: 0 0 7px 7px;
+    padding: 30px;
+  }
+  main .bottom_secation.Why_Us p {
+    width: 79%;
+    font-size: 15px;
+  }
+}
